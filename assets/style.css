@@ -1,0 +1,87 @@
+body
+{
+    background: rebeccapurple;
+    margin: 12px;
+    padding: 0;
+ 
+}
+
+.animation
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: auto;
+    flex-wrap: wrap;
+   
+
+}
+
+.text
+{
+    text-align: center;
+    margin-top: 200px;
+}
+
+
+
+.item-1
+{
+    display: flex;
+    background: red;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.item-2
+{
+    display: flex;
+    background: red;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.item-3
+{
+    display: flex;
+    background: red;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.item-4
+{
+    display: flex;
+    background: red;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.item-5
+{
+    display: flex;
+    background: red;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.item-6
+{
+    display: flex;
+    background: red;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+
