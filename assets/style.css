@@ -1,6 +1,6 @@
 body
 {
-    background: rebeccapurple;
+    background: rgb(219, 211, 226);
     margin: 12px;
     padding: 0;
  
@@ -27,21 +27,135 @@ body
 .item-1
 {
     display: flex;
-    background: red;
+    position: relative;
+    background: transparent;
     height: 400px;
     width: 400px;
-    margin: auto;
-    justify-content: space-between;
+    border-radius: 30%;
+    border-top: 1px solid red;
+    align-items: center;
+    justify-content: center;
+    animation-name: rotation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
+
+ @keyframes rotation{
+    0%{
+        transform: rotate(0deg)
+    }
+    25%{
+        transform: rotate(90deg)
+    }
+    50%{
+        transform: rotate(180deg)
+    }
+    75%{
+        transform: rotate(270deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+ }
+
+.item-a
+{
+    display: flex;
+    background: transparent;
+    height: 300px;
+    width: 300px;
+    border-radius: 30%;
+    border-left: 1px solid red;
+    align-items: center;
+    justify-content: center;
+    animation-name: rotation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+   
+
+
+}
+.item-aa{
+    display: flex;
+    background: transparent;
+    height: 200px;
+    width: 200px;
+    border-radius: 30%;
+    border-right: 1px solid red;
+    animation-name: rotation;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+
+}
+
 
 .item-2
 {
-    display: flex;
+ 
     background: red;
     height: 400px;
     width: 400px;
     margin: auto;
-    justify-content: space-between;
+   
+
+    
+}
+
+
+.item-b1{
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid rgb(68, 0, 255);
+    border-bottom: 50px solid transparent;
+    position: lec;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+@keyframes slidein {
+    from {
+      margin-left: 75%;
+      width: 0%;
+    }
+  
+    to {
+      margin-left:%;
+      width: 50%;
+    }
+  }
+
+.item-b2{
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 100px solid rgb(55, 0, 255);
+    border-bottom: 50px solid transparent;
+    position: lec;
+    animation-duration: 3s;
+    animation-name: slideinb2;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes slideinb2 {
+    from {
+      margin-left: 0%;
+      width: 0%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 75%;
+    }
+  }
+.item-b3{
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid rgb(68, 0, 255);
+    border-bottom: 50px solid transparent;
 }
 
 .item-3
@@ -52,6 +166,42 @@ body
     width: 400px;
     margin: auto;
     justify-content: space-between;
+    
+}
+.item-c1{
+    display: flex;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    margin-top: 175px;
+    border-radius: 50%;
+    background: blue;
+    transform: translate(40px);
+    position: lec;
+    animation-duration: 3s;
+    animation-name: slideinc1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes slideinc1{
+    from {
+      margin-left: 0%;
+      width: 0%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 75%;
+    }
+  }
+
+
+.item-c1:hover
+{
+    width: 50px;
+    height: 50px;
+    transform: translate(60px);
+    animation: ;
 }
 
 .item-4
@@ -62,7 +212,62 @@ body
     width: 400px;
     margin: auto;
     justify-content: space-between;
+    
+
 }
+
+.item-dd{
+    display: flex;
+    background: red;
+    height: 30px;
+    width: 300px;
+    margin: auto;
+    justify-content: space-between;
+    position: lec;
+    animation-duration: 3s;
+    animation-name: slideind1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes slideind1 {
+    from {
+      margin-left: 0%;
+      width: 0%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 200%;
+    }
+  }
+.item-d1{
+    box-sizing : border-box;
+  position : relative;
+  width : 122px;
+  height : 70px;
+  background-color : #008000;
+  margin : auto;
+  animation-name: rotation1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes rotation1{
+    0%{
+        transform: rotate(360deg)
+    }
+    25%{
+        transform: rotate(270deg)
+    }
+    50%{
+        transform: rotate(180deg)
+    }
+    75%{
+        transform: rotate(90deg)
+    }
+    100%{
+        transform: rotate(0deg)
+    }
+ }
 
 .item-5
 {
@@ -72,6 +277,34 @@ body
     width: 400px;
     margin: auto;
     justify-content: space-between;
+}
+.item-e1{
+    display: flex;
+    background: red;
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    justify-content: space-between;
+    animation-name: rotation1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+.item-e3{
+    box-sizing : border-box;
+    position : relative;
+    width : 400px;
+    height : 10px;
+    background-color : #000980;
+
+}
+.item-e2{
+    box-sizing : border-box;
+    position : relative;
+    width : 400px;
+    height : 10px;
+    background-color : #008000;
+
 }
 
 .item-6
@@ -84,4 +317,47 @@ body
     justify-content: space-between;
 }
 
+.item-f{
+    display: flex;
+    background: red;
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    justify-content: space-between;
+    animation-name: rotation1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+.item-ff{
+    animation-name: zoom;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes zoom {
+    from{font-size: 15px;
+
+    }
+    
+    to{font-size: 50px;
+
+    }
+}
+ 
+.item-fff{
+    display: flex;
+    background: red;
+    height: 2px;
+    width: 2px;
+    margin: auto;
+    justify-content: space-between;
+    position: lec;
+    animation-duration: 3s;
+    animation-name: slideind1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+
+}
 
