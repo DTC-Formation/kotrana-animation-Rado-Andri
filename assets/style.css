@@ -92,7 +92,7 @@ body
 .item-2
 {
  
-    background: red;
+    background: transparent;
     height: 400px;
     width: 400px;
     margin: auto;
@@ -161,7 +161,7 @@ body
 .item-3
 {
     display: flex;
-    background: red;
+    background: transparent;
     height: 400px;
     width: 400px;
     margin: auto;
@@ -207,7 +207,7 @@ body
 .item-4
 {
     display: flex;
-    background: red;
+    background: transparent;
     height: 400px;
     width: 400px;
     margin: auto;
@@ -218,7 +218,7 @@ body
 
 .item-dd{
     display: flex;
-    background: red;
+    background: transparent;
     height: 30px;
     width: 300px;
     margin: auto;
@@ -272,7 +272,7 @@ body
 .item-5
 {
     display: flex;
-    background: red;
+    background: transparent;
     height: 400px;
     width: 400px;
     margin: auto;
@@ -280,7 +280,7 @@ body
 }
 .item-e1{
     display: flex;
-    background: red;
+    background: transparent;
     height: 30px;
     width: 30px;
     margin: auto;
@@ -310,7 +310,7 @@ body
 .item-6
 {
     display: flex;
-    background: red;
+    background: transparent;
     height: 400px;
     width: 400px;
     margin: auto;
@@ -319,7 +319,7 @@ body
 
 .item-f{
     display: flex;
-    background: red;
+    background: transparent;
     height: 30px;
     width: 30px;
     margin: auto;
@@ -347,7 +347,7 @@ body
  
 .item-fff{
     display: flex;
-    background: red;
+    background: transparent;
     height: 2px;
     width: 2px;
     margin: auto;
