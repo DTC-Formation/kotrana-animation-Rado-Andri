@@ -358,7 +358,7 @@ body
     animation-direction: alternate;
 }
 
-@media only screem
+@media only screen
 and (min-width:600px){
     .animation{
         width:100%
@@ -369,7 +369,7 @@ and (min-width:600px){
     
 }
 
-@media only screem
+@media only screen
 and (min-width:768px){
     .animation{
         width:100%
@@ -379,7 +379,7 @@ and (min-width:768px){
     }
 }
 
-@media only screem
+@media only screen
 and (min-width:992px){
     .animation{
         width:100%
@@ -389,7 +389,7 @@ and (min-width:992px){
     }
 }
 
-@media only screem
+@media only screen
 and (min-width:1200px){
     .animation{
         width:100%
